@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#eef7ee;
+}
+
+/* TEXTO */
+
+.introducao{
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+    line-height:1.8;
+}
+
+.introducao h1{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.introducao p{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.objetivo{
+    background:#dcedc8;
+    padding:15px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+/* JOGO */
+
+.game-section{
+    background:white;
+    padding:20px;
+    border-top:4px solid #2e7d32;
+}
+
+.game-section h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+#score{
+    text-align:center;
+    font-size:24px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+#feedback{
+    text-align:center;
+    min-height:60px;
+    margin-bottom:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#gameArea{
+    position:relative;
+    width:450px;
+    height:350px;
+    margin:20px auto;
+    background:linear-gradient(#87ceeb,#e6f7ff);
+    border:3px solid #2e7d32;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+/* ITENS */
+
+.item{
+    position:absolute;
+    width:50px;
+    height:50px;
+    background:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    cursor:grab;
+    box-shadow:0 3px 6px rgba(0,0,0,.3);
+}
+
+/* LIXEIRAS */
+
+#bins{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.bin{
+    width:120px;
+    height:100px;
+    border-radius:10px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:3px solid white;
+}
+
+.papel{
+    background:#1565c0;
+}
+
+.plastico{
+    background:#d32f2f;
+}
+
+.vidro{
+    background:#2e7d32;
+}
+
+.metal{
+    background:#f9a825;
+    color:black;
+}
+  /* ===== RODAPÉ ===== */
+footer {
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
